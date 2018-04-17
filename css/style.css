@@ -1,0 +1,457 @@
+/* start Main Rules */
+
+.container{
+    width: 1170px;
+    margin: auto
+}
+
+.clearfix{clear: both}
+
+/* start Header*/
+
+.header .slider{
+    background-image: url('../images/Spear_rndr_v01_01-1170x600.jpeg');   
+    background-size: cover;
+    background-color: #eee;
+    height:600px
+}
+
+.header .slider .intro{  
+    text-align: center;
+    padding-top:200px;
+    color: #fff;
+}
+
+.header .slider .intro h2{
+    margin:auto;
+    font-size: 50px;
+    width: 600px;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;  
+}
+
+.header .slider .intro button{
+    margin-top: 30px;
+    width: 200px;
+    background: none;
+    border: 2px solid #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: #fff /* ???? */
+}
+
+.header .navbar{
+    background-color:#252F31;
+    color: #fff;
+    overflow: hidden; /* Need To ASk on it */
+    text-transform: capitalize
+}
+
+.header .navbar h2{float:left;}
+
+.header .navbar span{color: #2ecc71}
+
+.header .navbar ul{
+    list-style: none;
+    float: right
+
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px
+}
+
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navbar ul li a:hover{ color: #30B576;}
+
+.header .navbar ul li a:ACTIVE{color: #30B576;}
+
+/* end header */
+
+/* start features */
+
+.features {
+    overflow: hidden;
+    padding-bottom: 45px;
+    padding-top: 50px
+        
+}
+
+.features .feat{
+    float: left;
+    width: 33.3333%;
+    height: 150px;
+    
+}
+
+.features .feat h2{text-transform: uppercase;color: #555;}
+.features .feat p{
+    line-height:1.6;
+    color:#888;
+    text-align: justify;
+    padding: 12px 20px 0 0
+}
+
+/* end features */
+
+/* Start About-me */
+
+.about-me{
+    background-color:#F2F2F2;
+    overflow: hidden
+}
+
+.about-me .image{
+    float: left;
+    width: 40%
+}
+
+.about-me .image img{width: 100%}
+
+.about-me .info{
+    float: left;
+    width: 60%
+}
+
+.about-me .info h2{
+    margin: 25px 0 20px 40px;
+    color: #555
+}
+
+.about-me .info> p{margin: 30px 0 10px 40px;}
+
+.about-me .info p{
+    line-height: 1.5;
+    color: #666
+}
+
+.about-me .info .hoppies{
+    overflow: hidden;
+    margin: 15px 0 0 40px
+}
+
+.about-me .info .hoppies .content{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden
+}
+
+.about-me .info .hoppies .content h3{color: #555}
+
+.about-me .info .hoppies .content .icon{
+    float: left;
+    width: 12%;
+    margin-right: 5%;
+    margin-top: 30px
+}
+.about-me .info .hoppies .content .icon img{max-width: 100%;
+}
+.about-me .info .hoppies .content .text{
+    float: left;
+    width: 83%
+}
+.about-me .info .hoppies .content .text h3{margin-bottom: 5px;}
+
+.about-me .info .hoppies .content .text p{margin-top: 0px;}
+
+/* End About Me */
+
+/* Start My Skill*/
+.my-skills{
+    padding-bottom: 50px;
+    padding-top: 30px;
+    overflow: hidden
+}
+.my-skills{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    overflow: hidden
+}
+.my-skills .skills,.my-skills .progress{
+    width: 50%;
+    float: left
+}
+.my-skills .skills h2{
+    margin: 25px 0 20px 40px;
+    color: #555
+}
+
+.my-skills .skills p{
+    margin: 30px 0 10px 40px;
+    line-height: 1.5;
+    color: #666
+}
+.my-skills .skills p:last_of_type{
+    margin-top: 25px;
+}
+.my-skills .skills button{
+    margin-left: 40px;
+    margin-top: 30px
+}
+.my-skills .progress .tech{margin-left: 50px
+}
+.my-skills .progress .tech h3{color:#555}
+
+.my-skills .progress .tech div{
+   background-color: #f2f2f2;
+   height: 25px;
+    
+}
+.my-skills .progress .tech div span{
+    background-color: #2DCC78;
+    height: 25px;
+    display: block;
+    line-height:25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold
+} 
+/* End My Skill*/
+
+/* Start My Resume*/
+.resume{
+    background-color:#F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center
+}
+.resume h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666
+}
+.resume p{
+    line-height: 1.7;
+    color: #666;
+    padding: 0 40px;
+}
+.resume button{margin-top: 15px;}
+
+/* End My Resume*/
+
+/* Start Education*/
+
+.education{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    overflow: hidden
+}
+
+.education hr{ 
+    margin:20px 0;
+    background-color:#999;
+    height:2px;
+    border:0;
+}
+
+.education .main{
+  width: 50%;
+  margin-right: 5%;
+  float: left;
+}
+.education .main h2{
+    margin: 25px 0 20px 40px;
+    color: #555
+}
+
+.education .main p{
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    color: #666
+}
+.education .main p:last_of_type{margin-top: 25px;}
+
+.education .exp{
+    width: 45%;
+    float: left;
+}
+.education .exp h3{
+    margin-top: 80px;
+    margin-bottom:5px;
+}
+.education .exp span{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.education .exp span:first-of-type {color:#999}
+
+.education .exp span:last-of-type {
+    background-color:#2DCC70;
+    color:#FFF;
+    display: inline-block;
+    padding: 4px 10px
+}
+.education .exp p {
+    line-height: 1.7;
+    color: #777
+}
+
+/* End Of Education */
+
+/* Start of Testimonials */
+
+.testimonials{
+    background-color:#F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center
+}
+
+.testimonials q{
+    color: #888;
+    font:italic bold 18px/1.8 Arial , Tahoma
+}
+.testimonials h3{color: #777;}
+
+.testimonials ul{
+    list-style: none;
+    padding-left: 0;
+}
+.testimonials li{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 2px solid #2DCC70;
+    cursor: pointer;
+    border-radius:50%;
+}
+.testimonials ul li.active,
+.testimonials ul li:hover
+{background-color:#2DCC70;}
+
+
+
+/* End of Testimonials */
+
+/* Start of Portfolio */
+
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center
+}
+.portfolio h2{color: #777;}
+
+.portfolio p{
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 30px
+}
+.portfolio .ourwork{overflow: hidden}
+
+.portfolio .ourwork> div{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 15px
+}
+.portfolio .ourwork> div img{
+    width:80%;
+    margin:10px;
+    padding:3px;
+    border:1px solid #CCC;
+    box-shadow:10px 10px 12px #CCC;
+}
+/* End of Portfolio */
+
+/* Start of contact */
+.contact{
+    background-color:252F31;
+    overflow: hidden;
+    padding-bottom:70;
+    padding-top:50px
+}
+.contact .info{
+    width:50%;
+    margin-right:5%;
+    float: left
+}
+
+.contact h2{color:#fff; margin-left:40px; }
+
+.contact p{color:#6A6E71; margin-left: 40px; line-height: 1.7}
+
+.contact p strong{color:#D1D6DA;}
+    
+ .contact .form{
+        float:left;
+        width: 45%
+    }
+ .contact .form label{ 
+     display: block;
+     margin-bottom: 10px;
+     color:#D1D6DA;
+}
+.contact .form input[type="text"]{
+    background-color:#4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0px;
+    width: 80%;
+    margin-bottom: 10px
+}
+.contact .form textarea{
+    background-color:#4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0px;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.contact .form input[type="submit"]{
+    color: #fff;
+    border: 0px;
+    background-color:#191E22;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/* End of contact */
+
+/* Start of footer */
+.footer{
+    background-color: #191E22;
+    color: #6A6E71;
+    padding:20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.footer span{float: left}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0px;
+    margin:0px;
+    float: right;
+}
+.footer li{
+    display: inline-block;
+    margin-left:8px;
+}
+
+/* End of footer */
+
+/*Start My Framework*/
+.my-button{
+    background:none;
+    color:#2DCC78;
+    padding:10px 30px;
+    border: 3px solid #2DCC78;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold
+}
+.fl-left{float:left}
+/* Osama la8a kol el float:left fe kol 7eta fe el css w 3aml class w dafoh fe elamakn ele kan 3amla el float da */
+
+/*End My Framework*/
+
+
